@@ -4,7 +4,30 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello");
+console.log("Hello, World!");
+console.log(`This`);console.log("That")
+console.log("2023");
+const num1 = 4;
+const num2 = 3;
+const sum = num1 + num2;
+console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
+process.stdout.write("Here");
+console.log(" And Here");
+console.log("A message.                Known.");
+console.log('And I said, "To Be."')
+console.log('E Pluribus Unum.  "Out Of Many, One."');
+process.stdout.write("This will give to the next ");
+console.log("one to come.");
+console.log("1")
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+const shuffledArray = array.sort(() => Math.random() - 0.5);
+console.log(shuffledArray);
+const arr1 = [1, 2, 3];
+const arr2 = [11, 10, 9];
+const mergedArr = [...arr1, ...arr2];
+console.log(mergedArr);
+
+
 
 /*  
 Next, PLAY! 
